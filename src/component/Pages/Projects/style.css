@@ -1,0 +1,6 @@
+.projects {
+  background-color: rgb(8, 8, 8);
+  padding: 2rem;
+  background:
+  repeating-radial-gradient(circle at 0 0, rgb(31, 25, 25), rgb(64, 57, 57) 50px);
+}
