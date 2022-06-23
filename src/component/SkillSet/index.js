@@ -8,6 +8,12 @@ import {
   faReact,
   faGit,
   faPython,
+  faWordpressSimple,
+  faBootstrap,
+  faAngular,
+  faNpm,
+  faJava,
+  faDev,
   
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -88,7 +94,7 @@ const SkillSet = () => {
           href="https://nestjs.com/"
           className="skill-links"
         >
-          <FontAwesomeIcon icon={faReact} className="skill-icon" />
+          <FontAwesomeIcon icon={faNpm} className="skill-icon" />
         </a>
       </div>
       <div className="skillSlide">
@@ -99,7 +105,18 @@ const SkillSet = () => {
           href="https://angularjs.com/"
           className="skill-links"
         >
-          <FontAwesomeIcon icon={faReact} className="skill-icon" />
+          <FontAwesomeIcon icon={faAngular} className="skill-icon" />
+        </a>
+      </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">BootStrap</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://angularjs.com/"
+          className="skill-links"
+        >
+          <FontAwesomeIcon icon={faBootstrap} className="skill-icon" />
         </a>
       </div>
       <div className="skillSlide">
@@ -110,7 +127,7 @@ const SkillSet = () => {
           href="https://wordpress.com/"
           className="skill-links"
         >
-          <FontAwesomeIcon icon={faGit} className="skill-icon" />
+          <FontAwesomeIcon icon={faWordpressSimple} className="skill-icon" />
         </a>
       </div>
       <div className="skillSlide">
@@ -148,6 +165,29 @@ const SkillSet = () => {
           <FontAwesomeIcon icon={faPython} className="skill-icon" />
         </a>
       </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">C++</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://python.com/"
+          className="skill-links"
+        >
+          <FontAwesomeIcon icon={faDev} className="skill-icon" />
+        </a>
+      </div>
+      <div className="skillSlide">
+        <h3 className="skill-heading">Java</h3>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://python.com/"
+          className="skill-links"
+        >
+          <FontAwesomeIcon icon={faJava} className="skill-icon" />
+        </a>
+      </div>
+      
     </div>
   );
 };

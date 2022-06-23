@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faCodepen,
   faInstagram,
+  
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -48,7 +49,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://codepen.io/faithchinonso"
+            href="https://app.netlify.com/teams/adiel-thairu"
             className="footer-links"
           >
             <FontAwesomeIcon icon={faCodepen} />

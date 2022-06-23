@@ -39,7 +39,7 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="http://faithumunnakweresume.epizy.com/"
+            href="https://app.netlify.com/teams/adiel-thairu"
             className="navigation-link"
           >
             Resume
